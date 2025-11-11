@@ -1,0 +1,99 @@
+/* Container setup */
+form {
+  width: 450px;
+  margin: 60px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+}
+
+/* Heading */
+form h1 {
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 25px;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+/* Input group styling */
+.name,
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+/* Label text */
+form label {
+  font-weight: 600;
+  color: #333;
+}
+
+/* Input styling */
+input[type="text"] {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
+}
+
+/* Button styling */
+.btn {
+  text-align: center;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Notification styling */
+h3 {
+  text-align: center;
+  color: #444;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+/* Success/Error color feedback */
+h3:contains("successfully") {
+  color: #28a745;
+}
+
+h3:not(:contains("successfully")) {
+  color: #dc3545;
+}
+
+/* Responsive */
+@media (max-width: 550px) {
+  form {
+    width: 90%;
+    padding: 20px;
+  }
+
+  input[type="text"] {
+    font-size: 14px;
+  }
+}

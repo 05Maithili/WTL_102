@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Maithili Pawar",
+    "roll_no": "101",
+    "department": "Computer Science",
+    "marks": "88%"
+  },
+  {
+    "name": "Aarav Patil",
+    "roll_no": "102",
+    "department": "Information Technology",
+    "marks": "92%"
+  },
+  {
+    "name": "Priya Deshmukh",
+    "roll_no": "103",
+    "department": "Electronics",
+    "marks": "85%"
+  }
+]

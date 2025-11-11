@@ -1,0 +1,33 @@
+button{
+  height:40px;
+  width:100px;
+  margin:4px;
+  font-size:15px;
+  font-weight:bolder;
+  border-radius:10px;
+  color:rgb(255, 251, 16);
+  box-shadow: 3px 4px 2px rgb(158, 152, 152);
+}
+button:active{
+  transform: translateY(4px);
+  box-shadow:none;
+
+}
+.add{
+  background-color: green;
+}
+.del{
+  background-color: red;
+}
+
+.box{
+  border:2px solid;
+  margin:20px;
+  height:200px;
+  width:300px;
+  padding:20px;
+
+}
+h1{
+  text-align: center;
+}
